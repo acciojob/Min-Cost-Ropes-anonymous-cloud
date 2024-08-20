@@ -1,7 +1,8 @@
 function mincost(arr)
 { 
 //write your code here
-// returif (arr.length <= 1) return 0;
+// return the min cost
+	if (arr.length <= 1) return 0;
     
     // Initialize total cost
     let totalCost = 0;
@@ -27,7 +28,7 @@ function mincost(arr)
         arr.sort((a, b) => a - b);
     }
     
-    return totalCost;n the min cost
+    return totalCost;
   
 }
 
